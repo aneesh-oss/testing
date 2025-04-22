@@ -1,4 +1,5 @@
 // server.js
+require('newrelic'); // Import New Relic agent at the top of your server file
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
